@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess the number - Intuition Checker</title>
+        <link rel = "stylesheet" href = "style.css"/>
+        <script src = "script.js" defer></script>
+    </head>
+    <body>
+        <div id = "introPage">
+            <div class = "introElem">
+                <h1 class="introH1"> Welcome to Number Guessing Game!</h1>
+                <button id = "Cont-intro">Click to continue</button>
+            </div>
+        </div>
+        <div class = "Gamemain">
+        <h1> Number Guessing Game</h1>
+        <p> Guess a number between 1 and 25</p>
+        <input type = "number" id = "guess" min = "1" max = "25" inputmode = "numeric"> </input>
+        <button id = "submit">Submit!</button>
+        <p id = "hint">Waiting for the first guess...</p>
+        <p id = "attempts">Attempts : 0</p>
+        </div>
+    </body>
+</html>
